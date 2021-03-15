@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
+// 采购合约
 contract Purchase {
     uint public value;
     address payable public seller;

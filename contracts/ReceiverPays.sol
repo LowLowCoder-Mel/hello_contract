@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
+// 接收支付合约
 contract ReciverPays {
     address owner = msg.sender;
 

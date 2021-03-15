@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
+// 问候合约
 contract Greeter {
     address private creator;
     uint256 private greeting;

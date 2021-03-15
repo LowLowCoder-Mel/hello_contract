@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
+// 简单的拍卖合约
 contract SimpleAution {
     address payable public beneficiary;
     uint public autionEndTime;

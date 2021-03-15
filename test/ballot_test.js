@@ -18,7 +18,7 @@ contract("Ballot Test", ([alice, bob, carol, song, yuan]) => {
     await this.ballot.vote(0, {from: bob});
     let after_prop = await this.ballot.proposals(0);
     console.log('after vote ', after_prop.voteCount);
-    assert.equal(after_prop.voteCount, 0);
+    assert.equal(after_prop.voteCount, 1);
   });
 
   it('委托给其他人投票', async() => {

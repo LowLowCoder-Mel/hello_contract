@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
+// 支付合约
 contract PaymentChannel {
     address payable public sender;
     address payable public recipient;

@@ -2,6 +2,7 @@
 pragma solidity 0.6.12;
 
 /// @title Voting
+// 简单的投票合约
 contract Ballot {
 
     // 投票者

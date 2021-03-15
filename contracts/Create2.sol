@@ -11,17 +11,17 @@ contract D {
 contract Create2 {
     function createDSalted() public {
         /// 
-        address pridectAddress = address(bytes20(keccak256(abi.encodePacked(
-            byte(0xff),
-            address(this),
-            salt,
-            keccak256(abi.encodePacked(
-                type(D).createCode, 
-                arg
-            ))
-        ))));
+        // address pridectAddress = address(bytes20(keccak256(abi.encodePacked(
+        //     byte(0xff),
+        //     address(this),
+        //     salt,
+        //     keccak256(abi.encodePacked(
+        //         type(D).createCode, 
+        //         arg
+        //     ))
+        // ))));
 
-        D d = new D(salt: salt)(arg);
-        require(address(d) == pridectAddress);
+        // D d = new D(salt: salt)(arg);
+        // require(address(d) == pridectAddress);
     }
 }
